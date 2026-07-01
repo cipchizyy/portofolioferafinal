@@ -9,7 +9,11 @@ dependencies = [
     "Flask-SQLAlchemy",
     "Flask-Login",
     "PyMySQL",
-    "Werkzeug"
+    "Werkzeug",
+    "Flask-Bcrypt",
+    "resend",
+    "email-validator",
+    "cryptography"
 ]
 
 [tool.vercel]
