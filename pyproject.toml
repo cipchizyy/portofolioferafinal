@@ -10,10 +10,10 @@ dependencies = [
     "Flask-Login",
     "PyMySQL",
     "Werkzeug",
-    "Flask-Bcrypt",
     "resend",
+    "cryptography",
     "email-validator",
-    "cryptography"
+    "Flask-Bcrypt"
 ]
 
 [tool.vercel]
