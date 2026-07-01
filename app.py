@@ -13,7 +13,7 @@ load_dotenv()
 app = Flask(__name__, template_folder="templates", static_folder="static")
 
 # Config
-app.secret_key = os.getenv("FLASK_SECRET_KEY", "dev-secret-key")
+app.secret_key = os.getenv("SECRET_KEY", "dev-secret-key")
 
 # Database TiDB
 basedir = os.path.abspath(os.path.dirname(__file__))
